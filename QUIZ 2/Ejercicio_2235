@@ -1,0 +1,17 @@
+datos=input()
+a,b,c=datos.split(' ')
+a=float(a)
+b=float(b)
+c=float(c)
+if(a==0 and b==0 and c==0):
+    print('S')
+elif(a>=c and b>=a and c>=b):
+    print('S')
+elif(a>=b and b>=c and c>=a):
+    print('S')
+elif(a<=b and b<=c and c<=a):
+    print('S')
+elif(a<=c and b<=a and c<=b):
+    print('S')
+else:
+    print('N')
