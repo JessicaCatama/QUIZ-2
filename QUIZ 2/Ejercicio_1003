@@ -1,0 +1,11 @@
+#datos
+A=int(input("ingrese un numero"))
+B=int(input("ingrese un numero"))
+A,B
+A=int(A)
+B=int(B)
+SOMA=A+B
+if (A+B==0):
+    SOMA=="A+B"
+elif(A-B==0):
+    SOMA=="A-b"
