@@ -1,0 +1,7 @@
+Segundos=int(input("Ingrese cantidad de segundos: "))
+Minutos=(Segundos//60)
+Horas=(Minutos//60)
+if(Minutos<60):
+    print("0",":",Minutos,":",(Segundos-(Minutos*60)))
+elif(Minutos>=60):
+    print(Horas,":",(Minutos-(60*Horas)),":",(Segundos-(Minutos*60)))
